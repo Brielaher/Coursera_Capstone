@@ -1,0 +1,4 @@
+Year-to-year traffic accidents bring us, hopefully, only annoyances due to material damages, but in the worst cases, loss of life. In this report we will analyze the information to determine what factors influence the outcome of a traffic accident.
+In this model we will find possible recommendations or changes in driving habits to achieve a safer driving ecosystem for everyone.
+
+This analysis model will be carried out taking into account a variety of attributes of the Data-Collision.csv file which includes many important and historical factors of accidents such as the state of the road, the weather at the time of the event, and more. We will build a model that understands these factors and, in turn, can make a prediction of the severity of a car accident based on those same attributes.
