@@ -1,3 +1,14 @@
-This analysis model will be carried out taking into account a variety of attributes of the Data-Collision.csv file which includes many important and historical factors of 
-accidents such as the state of the road, the weather at the time of the event, and more.
-We will build a model that understands these factors and, in turn, can make a prediction of the severity of a car accident based on those same attributes.
+Data
+
+Based on definition of our problem, factors that will influence our decission are:
+
+number of car collisions in the neighborhood (any severity level)
+number of high level car collision
+road condition when collision happenning
+We decided to use regularly spaced grid of locations, centered around city center, to define our neighborhoods.
+
+Following data sources will be needed to extract/generate the required information:
+
+centers of candidate areas will be generated algorithmically and approximate addresses of centers of those areas will be obtained using Google Maps API reverse geocoding
+number of collision and their type and location in every neighborhood will be obtained using Foursquare API
+number of high severity collisions locaiton
