@@ -1,3 +1,7 @@
-Year-to-year traffic accidents bring us, hopefully, only annoyances due to material damages, but in the worst cases, loss of life. 
-In this report we will analyze the information to determine what factors influence the outcome of a traffic accident. 
-In this model we will find possible recommendations or changes in driving habits to achieve a safer driving ecosystem for everyone.
+Introduction/Business Problem
+
+In this project we will try to find an optimal location for a towing service. Specifically, this report will be targeted to stakeholders interested in opening an Towing Service Campany in Seattle, USA.
+
+Since there are lots of towing service in Seattle we will try to detect locations that are have most car collisions in past. We are also particularly interested in most severity case location. We would also prefer locations to bad road candition in different weather, assuming that first two conditions are met.
+
+We will use our data science powers to generate a few most promissing neighborhoods based on this criteria. Advantages of each area will then be clearly expressed so that best possible final location can be chosen by stakeholders.
